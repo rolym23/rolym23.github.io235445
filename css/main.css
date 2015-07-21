@@ -1,0 +1,232 @@
+/***************
+    GENEERAL
+***************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a {
+	color: #6ab47b;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/***************
+    HEADING
+***************/
+
+
+
+header {
+	float: center;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+
+h1 {
+	font-family: 'Indie Flower', sans-serif;
+	margin: 15px 0;
+	font-size: 2.50em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2{
+	font-size: .80em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border:none;
+	border-radius: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+	margin-bottom: 10px;
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.jpg');
+	margin-bottom: 10px;
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+
+/***************
+    NAVIGATION
+***************/
+
+nav {
+	text-align: center;
+	padding: 5px 0;
+	margin-top: 37px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 5px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+/***************
+    FOOTER
+***************/
+
+footer {
+	font-size: 0.75em;
+	text-align: right;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.social-icon {
+	border-radius: 70px;
+	margin-right: 10px;
+}
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.social-icon:hover, .social-icon:focus, .social-icon:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: altern
+}
+
+/***************
+    PAGE PORTFOLIO
+***************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #fff;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding-top: 13px;
+	padding-left: 5px;
+}
+/***************
+    COLORS
+***************/
+
+
+/*site body*/
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/* green header*/
+header{
+	background: #6ab47b;
+	border-color: #599a68;
+}
+/* logo text*/
+h1, h2 {
+	color: #fff;
+}
+/* nav background on mobile*/
+nav {
+	background: #599a68;
+}
+/* nav link*/
+nav a, nav a:visited {
+	color: #fff;
+}
+/* selected nav link*/
+nav a.selected {
+	color: #32673f;
+}
+
+nav a:hover {
+	color: cyan;
+}
